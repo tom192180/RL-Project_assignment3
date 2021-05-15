@@ -1,10 +1,12 @@
 # RL-assigment3
 
-We did experiments using the following environments:
-slimevolley
+We implemented DQN and improvements like DDQN, Dueling DQN and self play, 
+and carry out experiments on following environments:
+
+-slimevolley
 https://github.com/hardmaru/slimevolleygym
 
 
-cartpole
+-cartpole
 https://gym.openai.com/envs/CartPole-v0/
 The reference of the codes are mentioned in each file
