@@ -366,8 +366,8 @@ def train(env,
             scores = evaluate_bestmodel(env, agent, n_trials=eval_episodes)
             print(f'SELFPLAY-exam: mean_reward achieved: {np.mean(scores)} at step {agent.step}')
             if np.mean(scores) > best_threshold:
-                print(f'SELFPLAY: new best model save to {filename}')
                 filename = LOGDIR + agent.agent_name + '_history_step' + str(agent.step)
+                print(f'SELFPLAY: new best model save to {filename}')
                 agent.model.save(filename) # Name the best model after time step
                 env.best_model = agent.model # Update the env best model to current agent
                 env.best_model_filepath = filename
