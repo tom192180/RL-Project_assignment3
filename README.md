@@ -1,4 +1,4 @@
-# RL-assigment3
+# RL-Project_assignment3
 
 We implemented DQN and improvements like DDQN, Dueling DQN and self play, 
 and carry out experiments on following environments:
